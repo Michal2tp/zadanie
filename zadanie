@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-double a, b, dodawanie, odejmowamie, mnozenie, dzielenie, wybor;
+int a, b, dodawanie, odejmowamie, mnozenie, dzielenie, wybor;
 cout << "Podaj pierwsze liczbe: ";
 cin >> a;
 cout << "Podaj druga liczbe: ";
