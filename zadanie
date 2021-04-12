@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+double a, b, dodawanie, odejmowamie, mnozenie, dzielenie, wybor;
+cout << "Podaj pierwsze liczbe: ";
+cin >> a;
+cout << "Podaj druga liczbe: ";
+cin >> b;
+cout << "dodawanie(1), odejmowanie (2), mnozenie (3) dzielenie(4)" << endl;
+cin >> wybor;
+switch ( wybor )
+{
+case 1: cout << "Wynik wynosi: " << a + b << endl;
+break;
+case 2: cout << "Wynik wynosi: " << a - b << endl;
+break;
+case 3: cout << "Wynik wynosi: " << a * b << endl;
+break;
+case 4: cout << "Wynik wynosi: " << a / b << endl;
+break;
+
+}
+return 0;
+}
